@@ -1,10 +1,15 @@
-html, body {
+html,
+body {
     background-color: white;
     height: 100%;
 }
+div.cabeca {
+display: flex;
+flex-direction: row;
+}
 
-div.home {
-    margin:auto auto auto auto;
+div.logoHome {
+    margin: auto auto auto auto;
     position: relative;
 
 
@@ -13,20 +18,31 @@ div.home {
 img.logoMaridao {
     height: 500px;
     display: block;
-    margin-right:auto;
+    margin-right: auto;
 
 }
+
 div.wttSelecionavel {
     display: flex;
-    
+
     flex-direction: row;
     margin-left: auto;
 }
-div.link {
-    border-radius: 15px;
-    cursor: pointer;
-   background-color: rgb(0, 255, 0);
+
+img.whatsappLogo {
+    height: 100px;
+    width: 100px;
+    margin-left: 2%;
 }
+
+div.link {
+    height: 100px;
+    width: 300px;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: rgb(37, 211, 102);
+}
+
 div.link:hover {
-background-color: aqua;
+    background-color: rgb(37, 250, 102);
 }
