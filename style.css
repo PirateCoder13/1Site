@@ -1,0 +1,32 @@
+html, body {
+    background-color: white;
+    height: 100%;
+}
+
+div.home {
+    margin:auto auto auto auto;
+    position: relative;
+
+
+}
+
+img.logoMaridao {
+    height: 500px;
+    display: block;
+    margin-right:auto;
+
+}
+div.wttSelecionavel {
+    display: flex;
+    
+    flex-direction: row;
+    margin-left: auto;
+}
+div.link {
+    border-radius: 15px;
+    cursor: pointer;
+   background-color: rgb(0, 255, 0);
+}
+div.link:hover {
+background-color: aqua;
+}
