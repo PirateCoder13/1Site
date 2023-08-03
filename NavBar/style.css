@@ -1,0 +1,52 @@
+ul.category {
+
+    padding: 1vh;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #111;
+    margin: 20px;
+
+}
+
+img.navBarLogo {
+    width: 10%;
+    border-radius: 99999999px;
+    margin: auto 0px auto 0px;
+
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    margin: auto 0px auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: auto auto;
+    text-align: center;
+    padding: 1vw 2vh;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 1vw;
+}
+
+
+div.navBarClicks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+div.navBarClicks a {
+    margin-left: 120px;
+    margin-right: 150px;
+}
