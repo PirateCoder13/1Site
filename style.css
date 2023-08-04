@@ -1,11 +1,22 @@
 html,
 body {
-    background-color: white;
+    background-color: gray;
     height: 100%;
 }
-div.cabeca {
-display: flex;
-flex-direction: row;
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: px;
+
+    overflow: hidden;
+    padding: 0;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 div.logoHome {
@@ -16,33 +27,76 @@ div.logoHome {
 }
 
 img.logoMaridao {
-    height: 500px;
+    height: 110px;
+    border-radius: 35px;
     display: block;
-    margin-right: auto;
+    margin-right: auto 0px auto 0px;
 
 }
 
 div.wttSelecionavel {
     display: flex;
-
     flex-direction: row;
     margin-left: auto;
 }
 
 img.whatsappLogo {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     margin-left: 2%;
 }
 
 div.link {
-    height: 100px;
-    width: 300px;
+    margin: auto;
+    word-wrap: break-word;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 80px;
+    width: 190px;
     border-radius: 35px;
     cursor: pointer;
     background-color: rgb(37, 211, 102);
 }
 
+p {
+    margin-left: 5px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 div.link:hover {
     background-color: rgb(37, 250, 102);
+}
+
+li {
+    float: left;
+    display: inline;
+    position: relative;
+    margin: auto 0px auto;
+}
+
+li a {
+    font-size: large;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw;
+
+}
+
+div.navBarClicks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+div.navBarClicks a {
+    color: black;
+    margin-left: 120px;
+    margin-right: 150px;
 }
